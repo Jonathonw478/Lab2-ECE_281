@@ -103,6 +103,7 @@ begin
 	--	Port map: wire your component up to the switches and seven-segment display cathodes
 	-----------------------------------------------------	
 	
+	
 	-- CONCURRENT STATEMENTS ----------------------------
 	w_7SD_EN_n  <=  not btnC;
 	an <= (0 => w_7SD_EN_n, others => '1');
